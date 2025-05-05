@@ -1,0 +1,17 @@
+# when we need to commit all files
+git add .     
+
+# when we want to commit particular files
+git add file_Path
+
+# to commit latest changes
+git commit -m "commit message"
+
+# to push the latest commit(here main is a branch name)
+git push origin main 
+
+# take pull from any branch(here main is a branch name)
+git pull origin main
+
+# to  check the status of changes
+git status
